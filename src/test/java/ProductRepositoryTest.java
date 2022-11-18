@@ -6,11 +6,11 @@ public class ProductRepositoryTest {
     ProductRepository repository = new ProductRepository();
     ProductManager manager = new ProductManager(repository);
     Product book1 = new Book(1, "Шестерка воронов.. ", 300, "Бардуго Ли");
-    Product book2 = new Book(2, "Место встречи изменить нельзя ", 698, "Вайнер Аркадий");
+    Product book2 = new Book(2, "Маленький принц", 698, "Де Сент-Экзюпери");
     Product book3 = new Book(3, "Жизнь взаймы, или У неба любимчиков нет  ", 440, "Ремарк Эрих Мария");
-    Product smartphone1 = new Smartphone(4, " Iphone 13", 76_000, "Apple");
-    Product smartphone2 = new Smartphone(5, " ipad", 45_000, "Apple");
-    Product product1 = new Product(6, " Хлеб", 45);
+    Product smartphone1 = new Smartphone(4, "IPhone 13", 76_000, "Apple");
+    Product smartphone2 = new Smartphone(5, "IPhone PRO ", 45_000, "Apple");
+    Product product1 = new Product(6, " Очки", 45);
     Product product2 = new Product(7, " Молоко", 80);
 
 
